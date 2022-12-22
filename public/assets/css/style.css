@@ -6,6 +6,7 @@
 #navmenu {
     text-align: center;
 }
+
 main {
     height: 100%;
     min-height: 90vh;
@@ -48,10 +49,11 @@ html {
 }
 
 .content {
-    max-width: 320px;
+    /* max-width: 320px; */
     position: absolute;
     top: 55%;
     transform: translateY(-50%);
+    left: 10%;
 }
 
 .bg h1 {
@@ -145,7 +147,7 @@ html {
 }
 
 .hidden-images {
-    margin: 10px;
+    margin: auto;
     text-align: center;
 }
 
@@ -416,12 +418,13 @@ html {
 .skills-images {
     text-align: center;
     margin: 30px;
-    display: flex;
     overflow: scroll;
+    width: auto;
+    display: flex;
 }
 
 .skills-images img {
-    width: 70px;
+    width: auto;
     height: 70px;
     margin: 20px;
 }
@@ -514,6 +517,7 @@ figcaption a {
     font-weight: bold;
     border-radius: 25px;
     margin: 15px;
+    text-decoration: none;
 }
 
 figure figcaption {

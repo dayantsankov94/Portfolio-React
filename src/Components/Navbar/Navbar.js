@@ -1,17 +1,22 @@
 import { Link } from 'react-router-dom'
-
+import 'bootstrap/dist/js/bootstrap.bundle';
 
 
 const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg bg-dark navbar-dark d-flex sticky-top border-bottom">
             <div className="container">
-                <img src="assets/images/logo.png" alt="Logo" />
+                <a href="/">
+                    <img src="assets/images/logo.png" alt="Logo" />
+                </a>
                 <button
                     className="navbar-toggler"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#navmenu"
+                    aria-controls="navmenu"
+                    aria-expanded={true}
+                    aria-label="Toggle navigation"
                 >
                     <span className="navbar-toggler-icon" />
                 </button>

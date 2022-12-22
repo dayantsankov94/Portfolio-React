@@ -13,18 +13,18 @@ const Projects = () => {
                                     with others.
                                 </p>
                                 <a
-                                    className="btn"
                                     target="_blank"
                                     href='https://fishing-journal-214c0.web.app/'
                                 >
                                     Visit Website
                                 </a>
                             </figcaption>
+                            <h3 className="p-4">Fishing Journal</h3>
                         </figure>
                     </div>
-                    <div className="col-lg-4 col-md-6 m-5 justify-content-end">
+                    {/* <div className="col-lg-4 col-md-6 m-5 justify-content-end">
                         <h3> Unfortunately at the moment the website is under maintenance!</h3>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>

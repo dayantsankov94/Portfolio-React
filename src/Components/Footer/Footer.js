@@ -14,7 +14,9 @@ const Footer = () => {
                     </div>
                     <div className="col-12 col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center">
                         <div className="logo">
-                            <img src="assets/images/logo.png" alt="Logo" />
+                            <a href="/">
+                                <img src="assets/images/logo.png" alt="Logo" />
+                            </a>
                         </div>
                     </div>
                     <ul className="nav col-12 col-lg-4 col-md-6 col-sm-12 justify-content-end d-flex">
