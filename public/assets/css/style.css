@@ -2,6 +2,9 @@
     width: 150px;
     border-radius: 5px;
 }
+.navbar {
+    background-color: #191919
+}
 
 #navmenu {
     text-align: center;

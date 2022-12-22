@@ -4,7 +4,7 @@ import 'bootstrap/dist/js/bootstrap.bundle';
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg bg-dark navbar-dark d-flex sticky-top border-bottom">
+        <nav className="navbar navbar-expand-lg navbar-dark d-flex sticky-top border-bottom">
             <div className="container">
                 <a href="/">
                     <img src="assets/images/logo.png" alt="Logo" />
