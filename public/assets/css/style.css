@@ -52,12 +52,16 @@ html {
 }
 
 .content {
-    /* max-width: 320px; */
-    position: absolute;
-    top: 55%;
-    transform: translateY(-50%);
-    left: 10%;
+    position: relative;
+    padding-top: 250px;
 }
+
+@media screen and (max-width: 545px) {
+    .content {
+        max-width: 100%;
+    }
+}
+    
 
 .bg h1 {
     color: rgb(178, 140, 38);

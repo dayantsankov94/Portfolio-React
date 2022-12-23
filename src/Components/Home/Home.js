@@ -3,7 +3,8 @@ import Cv from '../../Portfolio/cv.pdf'
 const Home = () => {
     return (
         <div className="bg">
-            <div className="content container ms-3">
+            <div className="container">
+                <div className="content ms-3">
                 <h4>Hello, my name is</h4>
                 <h1>Dayan Tsankov</h1>
                 <h3>I am a JavaScript Enthusiast</h3>
@@ -14,6 +15,7 @@ const Home = () => {
                 >
                     Portfolio
                 </Link>
+                </div>
             </div>
         </div>
     )
