@@ -12,7 +12,7 @@ const HiddenInfo = ({
                 Snowboarding
             </p>
             <p className="m-5">
-                You can see photograhps of me participating in those activities
+                You can see photographs of me participating in those activities
                 below:
             </p>
             <button onClick={e => clickHandler(e,'volleyball')} className="btn">Volleball</button>
