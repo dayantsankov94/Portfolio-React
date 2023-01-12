@@ -21,7 +21,7 @@ const Skills = () => {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="skills-charts col-md">
+                        <div className="skills-charts col-lg-6">
                             <div className="front-end">
                                 <h4>Front-end</h4>
                                 <div className="chart">
@@ -83,8 +83,8 @@ const Skills = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="skills-image col-md">
-                            <img src="assets/images/Web-Developer-skill.jpg" alt="" />
+                        <div className="skills-image col-lg-6">
+                            <img src="assets/images/Web-Developer-skill.jpg" alt="skills" />
                         </div>
                     </div>
                 </div>
