@@ -30,7 +30,7 @@ const About = () => {
                             <img src="assets/images/my-pic.JPEG" alt="me" />
                         </div>
                     </div>
-                    <div className="about-text col-md">
+                    <div className="about-text col-md m-auto">
                         <h2>About Me</h2>
                         <h5>Web Developer</h5>
                         <p>
